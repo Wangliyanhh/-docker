@@ -1,0 +1,318 @@
+html,body{
+	width: 100%;
+	font-family: 'Arial Negreta', 'Arial';
+	font-weight: 700;
+}
+
+.container{
+	width: 1024px;
+}
+
+.main{
+	width: 100%;
+}
+
+.mgn5{
+	margin-top: 5px;
+}
+
+.h39{
+	height: 39px;
+}
+
+.h48{
+	height: 48px;
+}
+
+.h73{
+	height: 73px;
+}
+
+.w39{
+	width: 39px;
+}
+
+.w42{
+	width: 42px;
+}
+
+.w63{
+	width: 63px;
+}
+
+.w73{
+	width: 73px;
+}
+
+.w81{
+	width: 81px;
+}
+
+.w84{
+	width: 84px;
+}
+
+.w94{
+	width: 94px;
+}
+
+.w96{
+	width: 96px;	
+}
+
+.w111{
+	width: 111px;
+}
+
+.w128{
+	width: 128px;
+}
+
+.w134{
+	width: 134px;
+}
+
+
+.w138{
+	width: 138px;
+}
+
+
+.w167{
+	width: 167px;
+}
+
+.w172{
+	width: 172px;
+}
+
+.w175{
+	width: 175px;
+}
+
+.w178{
+	width: 178px;
+}
+
+.w192{
+	width: 192px;
+}
+
+.w210{
+	width: 210px;
+}
+
+.w211{
+	width: 211px;
+}
+
+.w215{
+	width: 215px;
+}
+.w311{
+	width: 311px;
+}
+
+.w395{
+	width: 395px;
+}
+
+.mgnleft{
+	margin-left: 5px;
+}
+
+.center{
+	margin:0 auto;
+}
+
+.colorWhite{
+	color: white;
+}
+
+.colorGreen{
+	color: rgba(132, 203, 107, 1);
+	background: rgba(132, 203, 107, 1);
+}
+
+.colorRed{
+	color: rgba(219, 60, 60, 1);
+	background: rgba(219, 60, 60, 1);
+}
+/*-----------------------------------*/
+
+/* ----------------------头部样式  --------------------------*/
+header{
+    width: 1024px;
+    height: 63px;
+    background-color: rgba(71, 87, 201, 1);
+    font-size: 18px;
+    color: white;
+}
+
+header>div{
+	display: inline-block;
+	height: 100%;
+	line-height: 24px;
+}
+
+.containerBtn{
+	width: 129px;
+	cursor:pointer;
+}
+
+.containerBtn:hover{
+	background: rgba(22,30,165,1);
+	border-bottom: 3px;
+}
+
+.containerBtn:nth-child(2){
+	margin-left: 200px;
+}
+
+.containerBtn>p{
+	padding-bottom: 16px;
+}
+/*----------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*------------头部导航下蓝绿红功能按钮-----------*/
+
+.mainBtn{
+	display: inline-block;
+	width: 95px;
+	height: 32px;
+	border-radius: 5px;
+	font-size: 13px;
+	margin:20px;
+}
+
+.mainBtn1{
+	color: rgba(132, 203, 107, 1);
+	background: rgba(132, 203, 107, 1);
+}
+
+.mainBtn2{
+	color: rgba(219, 60, 60, 1);
+	background: rgba(219, 60, 60, 1);
+}
+
+.mainBtn3{
+	color: rgba(71, 87, 201, 1);
+	background: rgba(71, 87, 201, 1);
+}
+
+.mainBtn:nth-child(1){
+	margin-left: 3px; 
+}
+
+
+.mainBtn1:hover{
+	background: rgba(0, 128, 0, 1);
+}
+
+.mainBtn2:hover{
+	background: rgba(204, 0, 0, 1)
+}
+
+.mainBtn3:hover{
+	background: rgba(1, 1, 150, 1)
+}
+
+.mainBtnIco{
+	display: inline-block;
+	width: 28px;
+	height: 30px;
+	background: white;
+	border-radius: 5px;
+	line-height: 32px;
+
+}
+
+.icon::before{
+	margin-left: -5px;
+}
+
+i{
+	margin: 10px;
+}
+
+/*---------------------------------------------*/
+
+
+/*----------------------表格样式---------------------------*/
+
+.mainTable{
+	border:1px solid rgba(0, 0, 0, 0.1); 
+	border-collapse:collapse;
+
+}
+
+th{
+	border: 1px solid rgba(0, 0, 0, 0.18)
+}
+
+tr:nth-child(1){
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.greenBorder{
+	border: 1px solid rgba(132, 203, 107, 1);
+}
+
+.redBorder{
+	border: 1px solid rgba(219, 60, 60, 1);
+}
+
+.blueBorder{
+	border: 1px solid rgba(71, 87, 201, 1);
+}
+/* ------------------------------------------------*/
+
+
+/* -----------------表格1-------------------------------*/
+.main1{
+	display: block;
+}
+
+.checkbox{
+	width: 22px;
+	height: 22px;
+}
+
+.circle22{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	margin-left: 9px;
+}
+
+/* -----------------表格4-------------------------------*/
+.main4{
+	margin-top: 72px;
+	font-size: 16px;
+}
+
+.main4>.mainTable>tr>th:nth-child(4),.main4>.mainTable>tr:nth-child(5){
+	font-size: 13px;
+}
+/* ------------------------------------------------*/
+
+/* -----------------表格5-------------------------------*/
+.main5>.mainBtn{
+	margin-left: 21px;
+}
+/* ------------------------------------------------*/
+
+
+/* -----------------表格6-------------------------------*/
+.main6>.mainBtn{
+	margin-left: 7px;
+}
+/* ------------------------------------------------*/
+
