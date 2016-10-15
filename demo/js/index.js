@@ -14,6 +14,10 @@ $(document).ready(function(){
 		location='#/index2';
 	})
 
+	$(".Btn3").click(function(){
+		location='#/index3';
+	})
+
 	$(".Btn4").click(function(){
 		location='#/index4';
 	})

@@ -4,7 +4,7 @@ html,body{
 	font-weight: 700;
 }
 
-.container{
+.myContainer{
 	width: 1024px;
 }
 
@@ -292,6 +292,21 @@ tr:nth-child(1){
 	margin-left: 9px;
 }
 
+/* -----------------表格3-------------------------------*/
+
+.chart-container{
+	margin-top: 30px;
+}
+
+.chart-background{
+	display: inline-block;
+	width: 20px;
+	height: 200px;
+	background: #c1c1c1;
+}
+
+
+ /* ------------------------------------------------*/
 /* -----------------表格4-------------------------------*/
 .main4{
 	margin-top: 72px;
